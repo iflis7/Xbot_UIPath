@@ -1,0 +1,147 @@
+{
+  "exportedBy": null,
+  "bundleHash": null,
+  "version": "1.0.0.0",
+  "jitAssemblyCompilerCommands": [
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "1uujeOVQVeSpaflixDIctcip7UZA0RKxgZ/SZ4077YFOW+tfYGwxKilVVIXbsdMVbTKq1NjAV+wqdg/Mmwm0vA==",
+        "bundleName": "C045AC1D564_sendTweets_Create",
+        "entitiesBundle": {
+          "Types": {
+            "sendTweets_Create": {
+              "name": "sendTweets_Create",
+              "properties": [
+                {
+                  "name": "id",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.CategoryAttribute, System.ComponentModel.Primitives"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"Simplified\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Order",
+                            "value": {
+                              "Value": "7",
+                              "type": {
+                                "ClrType": "System.Int32, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "text",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.CategoryAttribute, System.ComponentModel.Primitives"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"Simplified\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Order",
+                            "value": {
+                              "Value": "1",
+                              "type": {
+                                "ClrType": "System.Int32, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ],
+              "baseType": null
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.C045AC1D564_sendTweets_Create",
+        "hash": "MXV1amVPVlFWZVNwYWZsaXhESWN0Y2lwN1VaQTBSS3hnWi9TWjQwNzdZRk9XK3RmWUd3eEtpbFZWSVhic2RNVmJUS3ExTmpBVit3cWRnL01td20wdkE9PQ",
+        "assemblyName": "C045AC1D564_sendTwee.daT8Y3zitOI1cQR7m1SWmT43"
+      }
+    },
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "V3ifdpqTpMtfeqtjxCYx8olyuOijq9CN6inUj/o43Es2jNfOTvOIOhaheHIXzxBuXbukQ0k+qm+yA2IZP06tbA==",
+        "bundleName": "C045AC1D564_tweets_Create",
+        "entitiesBundle": {
+          "Types": {
+            "tweets_Create": {
+              "name": "tweets_Create",
+              "properties": [
+                {
+                  "name": "id",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "text",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.C045AC1D564_tweets_Create",
+        "hash": "VjNpZmRwcVRwTXRmZXF0anhDWXg4b2x5dU9panE5Q042aW5Vai9vNDNFczJqTmZPVHZPSU9oYWhlSElYenhCdVhidWtRMGsrcW0reUEySVpQMDZ0YkE9PQ",
+        "assemblyName": "C045AC1D564_tweets_C.zOw3o1f5ZwH1EzEH529wWNw2"
+      }
+    }
+  ]
+}

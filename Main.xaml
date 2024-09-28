@@ -1,0 +1,156 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="980,900.6666666666666" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:isactr="http://schemas.uipath.com/workflow/integration-service-activities/isactr" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uiascb="clr-namespace:UiPath.IntegrationService.Activities.SWEntities.C045AC1D564_sendTweets_Create.Bundle;assembly=C045AC1D564_sendTwee.daT8Y3zitOI1cQR7m1SWmT43" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models.FilterBuilder</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Helpers.TypeDetailsCustomization</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Activities</x:String>
+      <x:String>UiPath.Platform.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.IntegrationService.Activities.Runtime</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>C045AC1D564_sendTwee.daT8Y3zitOI1cQR7m1SWmT43</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>C045AC1D564_tweets_C.zOw3o1f5ZwH1EzEH529wWNw2</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="416,836" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="postId" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACrVXbW/bNhD+K4Q+Dq4WN+kLAvRDY7ebt6Z2a7fd0AQCI51tLhKp8iWpG/S/7yFFOXLsJO2GIEVS8o539zy8O56ukteCysIMlLRcSNLJ4VUyJa7zJT8rqREmh59Pe8lI1s6uN66St7yi5DCx9NUmvWQoTF3yVdycxU0yuRa1FUrGTabmzC6J2Usiy85IyAXLNXFLRYoDs1XtjxurIcB6qrQd68KH1Q/mxAKWrpKJMiJanVKuZMH1KvneS96TqZU0sGG1I7/+4oSmol2H8N+onMfDR6rw59ZgalWWaeF0kGeVkM6S2UI3gRZrtZiQrKO4gXjY6kTU3nxHn82VZjxycSnsEosQAZsthWH4p2S5YjqCYKKx4tdkLAzlpStgJphVwanpsCikpQWo26DxMUhQuuK2Udh/nPwIrzt56yVjOeDygpuG3ps8xoh209cRblD2kuWqqvgjQzUHeUBdCmAFgfFEIM3bR4akDFg2OLEKScWMy3MyZu7AtmWVg4CXRrWMsZs3fE/q7T8ERZrqcpUZshb+tkl678WsK96gaRoFHrCQhYBbYpdLxXIuQYY/C4lnJgvplbJxpK/l4CQ5Jum3QLEzpM1JwrgssP8a5KpLWD9JUjakOXclks1A8uqC9AonILibsYNe8kq6KvSJj7x0Xu+Gu1B2rWztcmO3dZd8P32IG0AiZcbVpLN5cI+gMl9wW3fhkywosrViqMytW/m0JFCu2Uo5dsllSEfuT3R6Hn0F/0ZcEK5ovm04ZUAvCnbhOTCMa5xD2Ayac+QwdYg/U6okLjeZf/IQTBVoP7nNKtQUX1BWENUZ6u98i6lhUGRRkXlF1ipuvgWeC8ALUtbYb3KWs2jkOBpB3MgD0zTSpktKxvNcOWnvScOnD0HGglQKyDllotgi4DdSLAjZaLgjtvven4oKwdPwG9bN519OtzwceyGsmx81fweUxp3liwUVma/Ku502iqF8fyaAjsMvTllqOtIu9t55cayT/8Rf6HxpKLGCsqbFtrhuabFROTbN/4Gt8S1kdGvV7Tgbz6LbqX8WMzri2NmdE9kOh7Nr8zfqEH1pNGznE0noVOG5uLuunvWSiRYVCuhPWnVnLTzByWHoU7tmsWY98I/v7SNZg+qurP1DWLybsmh6yBbWKUQNiu1n8xrWBzHhdpmO/IzUDANT0hcip/RlbsUFOgXGgumnV3izwn8HewdPXg76wydPDzrOs0GYXdMjJ4uS0i1Bj+06lxZ89vzv/W/Cjkf9/N37Z1V/+qmaHez32Ed0OsTyop/u+R+cx+PrNL2Q5KzmZY9N3FkpcvA+U+ckX0hXlsn95P8gy5jyDegN2pH3U7TID1LMBRWeOnwpVDWs4ONg7WwkjeUypwkmtoqsf9zRbyMUOAtg4AsfGRKdXemQNYkTMLR8ZNHTcab9C714A6t4VW3CINizf3A+3vNGCvxubX2Mx1chbN/pre/sA54vCajVuavDTOHjWu8faXWJah9ZquL+dU77evJ1hCqb8Pwcz1AXzfNNNDGev7p7XfWDtL+/Dv6uXL0d3hgzQnt1TWZtYR5PZ9jzSY3Vrxun33C5cMAAAflx4Zh/nWA5Fd+w1d/bgylujmD2HJU+WELbMxUv13+1HZUqPw+fgd//BWvCrswxDgAA" ConnectionId="5bf8a620-52a7-4457-a63c-16045ac1d564" DisplayName="Send Tweet" sap:VirtualizedContainerService.HintSize="354,217.33333333333334" sap2010:WorkflowViewState.IdRef="ConnectorActivity_1" UiPathActivityTypeId="3ee4c14b-cc04-319a-b255-ec649cfda902">
+      <isactr:ConnectorActivity.FieldObjects>
+        <isactr:FieldObject Name="text" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:String">This post is a test from UiPath Studio</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="poll_sub_duration_minutes" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:Int32" />
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="poll_sub_options" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:String" />
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="reply_settings" Type="FieldArgument" />
+        <isactr:FieldObject Name="for_super_followers_only" Type="FieldArgument" />
+        <isactr:FieldObject Name="direct_message_deep_link" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:String" />
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="out_id" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <OutArgument x:TypeArguments="x:String">[postId]</OutArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="Jit_sendTweets" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <OutArgument x:TypeArguments="uiascb:sendTweets_Create" />
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+        <isactr:FieldObject Name="media_sub_media_ids_array" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="s:String[]">[New String(){"1"}]</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+      </isactr:ConnectorActivity.FieldObjects>
+    </isactr:ConnectorActivity>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="354,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;PostId: &quot; + postId]" />
+    <Delay Duration="00:01:00" sap:VirtualizedContainerService.HintSize="354,124" sap2010:WorkflowViewState.IdRef="Delay_1" />
+    <isactr:ConnectorActivity Configuration="H4sIAAAAAAAACnVSy47TQBD8FavPJusIDsg38liwyBKLhBUSymEy7sRD7Bkz096ssfLv9PgRsmg52VP9qK7qbuFeYZG5udEklEYLcQsbFFbmYl9gH4T4xy6ERFc1XYEWvogSIQY6I5JLMghhoVxViGYIbLtAkCx8BJ20qiJltI/kyHBgDgHxX9cgIBPsMbBYmifMJlyybSrfxZFV+sjvr/irVhYziMnWGPZzr4wUQ9NUUM5piXtAyk2WCstjkBfk8y8sYF3TrYLdJYRvWh0UZp6LLSgrbsaqIT6IwjFHoh0JLfHajOtaeORvzzmdRJOISdk9jZKM/YwNw7XiRvkbOivimvHLeR8kqSdFzaDtI7LhSnJgXaEdhSywYCrg6eZC5sgazamuHkVRY0e/3v9krt5kXgM7Py7h7wrmpqhL7VUOawDWv+msvDe2FPRvHrTR5T8bhMvuOsvMmrNDmxCWfhbGU6tKYRsW3rGpzDOlQp7EEW+Nev/SqIHh+y12m/5uMn3rfem0vjrVGHxxhq9bGcInoqq/C48uV8vtktHuZGK462vv2vGUvRMroY81a+A4an4/iOeUnxv1m6FpFHFP4WYWxYk9neec7bcz3M0Wn2lWGHnq7+wPmSrmbGUDAAA=" ConnectionId="5bf8a620-52a7-4457-a63c-16045ac1d564" DisplayName="Delete Record" sap:VirtualizedContainerService.HintSize="354,230" sap2010:WorkflowViewState.IdRef="ConnectorActivity_2" UiPathActivityTypeId="47a873ac-a147-3310-9810-9db922c700dd">
+      <isactr:ConnectorActivity.FieldObjects>
+        <isactr:FieldObject Name="tweetsId" Type="FieldArgument">
+          <isactr:FieldObject.Value>
+            <InArgument x:TypeArguments="x:String">[postId]</InArgument>
+          </isactr:FieldObject.Value>
+        </isactr:FieldObject>
+      </isactr:ConnectorActivity.FieldObjects>
+    </isactr:ConnectorActivity>
+  </Sequence>
+</Activity>
